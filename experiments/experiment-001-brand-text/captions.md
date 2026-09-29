@@ -8,7 +8,6 @@
     #Inspiration #trending #trendingreels #instagram #trendingonshorts #Youtube #suscribete @Hormigas-ai #Hormigas-ai
 
 - **Texto sobre el video (0-5 s):** N/A (Sin texto superpuesto en el video).
-- **Audio / Transcripción:** "HormigasAIS se presenta como un proyecto de infraestructura y certificación digital basado en el lenguaje binario HormigasAIS LBH."
 - **Enlace:** https://youtube.com/shorts/18PiCYHpgus
 
 ## IG-B (Instagram, variante B)
@@ -25,7 +24,11 @@ Texto sobre el video (5 s):
 
 ## Notas
 
-- **YouTube:** La descripción actual contiene más de 15 hashtags repetidos e irrelevantes (`#apnahaledilsialkot`), lo cual activa los filtros de spam de YouTube e ignora todas las etiquetas. El texto de YT-A se utilizó como constante para B y C.
-- **Diferencia clave YT vs IG:** YT-A no lleva hashtags sobre el lienzo del video; IG-B lleva el bloque de etiquetas superpuesto en los primeros 5 segundos.
-- **Identidad de marca visual/auditiva:** El video presenta formalmente la infraestructura soberana de **HormigasAIS** y el **Lenguaje Binario HormigasAIS (LBH)** con el rastro de puntos / feromonas digitales.
+- YouTube: la descripción tiene más de 15 hashtags; según la ayuda de YouTube, en ese caso los ignora todos. El texto de YT-A es la constante para B y C en YouTube.
+- YT-A no lleva texto ni hashtags sobre el video; IG-B lleva texto y etiquetas superpuestos durante 5 s.
+- El tema del video está registrado en el Issue 2.
 
+## Datos de publicación
+
+- YouTube: ID 18PiCYHpgus; duración (s): 13; fecha y hora: pendiente
+- Instagram: ID Dd3dcp9R94d; duración (s): 13; fecha y hora estimada por el ID: 2026-09-29 03:40 (-06:00)
