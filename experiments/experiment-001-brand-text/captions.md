@@ -30,5 +30,5 @@ Texto sobre el video (5 s):
 
 ## Datos de publicación
 
-- YouTube: ID 18PiCYHpgus; duración (s): 13; fecha y hora: pendiente
+- YouTube: ID 18PiCYHpgus; duración (s): 13; fecha y hora estimada por el ID: 2026-09-29 03:40 (-06:00)
 - Instagram: ID Dd3dcp9R94d; duración (s): 13; fecha y hora estimada por el ID: 2026-09-29 03:40 (-06:00)
