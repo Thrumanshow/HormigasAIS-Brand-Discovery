@@ -26,3 +26,7 @@ Repetir 3-5 rondas rotando el orden antes de concluir.
 ## Pendiente
 - Experimento 002: etiquetas #apna... con vs. sin.
 - Tema y duración del video base.
+
+## Video base
+- Tema: pendiente
+- Duración (s): pendiente
