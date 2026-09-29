@@ -32,4 +32,4 @@ Repetir 3-5 rondas rotando el orden antes de concluir.
 
 ## Nota de diseño
 El prompt de la terminal muestra "HormigasAIS" en pantalla en las tres
-variantes. La variante A significa "sin texto añadido en edición".
+variantes. Variante A (control): no añade texto de marca, hashtag ni sticker en edición; conserva solo los elementos originales del video (incluido el prompt).
