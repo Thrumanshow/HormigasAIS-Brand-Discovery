@@ -1,0 +1,37 @@
+content_id: EXP001-A
+
+classification_type: content_intent
+
+emotion:
+  primary: curiosity
+  secondary: reflection
+
+valence: neutral
+arousal: medium
+tension: low
+controversy: low
+
+hook:
+  type: technical_demonstration
+  description: >
+    La apertura muestra una terminal de Termux y el entorno
+    A16@Soberano.
+
+target_action:
+  primary: watch_complete
+  secondary: profile_visit
+
+evidence:
+  - >
+    El contenido muestra directamente una terminal de Termux.
+  - >
+    El prompt contiene la identidad HormigasAIS.
+  - >
+    No se añadió texto emocional o promocional durante la edición.
+
+confidence: medium
+coded_by: author
+
+scope:
+  applies_to: content
+  not_viewer_profile: true

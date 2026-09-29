@@ -1,0 +1,81 @@
+experiment:
+  id: EXP001
+  name: overlay-text
+  title: "H2 — Duración del texto de marca en pantalla"
+  status: active
+
+objective:
+  description: >
+    Observar si la duración del texto de marca superpuesto durante la edición
+    modifica las métricas observables de descubrimiento, retención, interacción
+    y conversión del mismo contenido base.
+
+design:
+  type: controlled_comparison
+  control_variant: A
+  variable_under_test: brand_text_duration
+  overlay_text: "#HormigasAI"
+
+variants:
+  A:
+    name: control
+    brand_text_duration: "0s"
+  B:
+    name: "overlay 3–5s"
+    brand_text_duration: "3–5s"
+  C:
+    name: "overlay full video"
+    brand_text_duration: "full_video"
+
+control:
+  variant: A
+  definition: >
+    No añade texto de marca, hashtag gráfico ni sticker en edición.
+    Conserva los elementos originales del vídeo.
+
+original_elements:
+  terminal_prompt: "A16@Soberano:~/HormigasAIS-Brand-Discovery"
+  original_brand_visible: true
+  original_brand: "HormigasAIS"
+  original_brand_source: "terminal prompt"
+
+measurement:
+  checkpoints:
+    - 1h
+    - 24h
+    - 72h
+    - 7d
+  primary_metrics:
+    - non_follower_reach
+    - profile_visits
+    - new_followers
+
+platforms:
+  - youtube
+  - instagram
+
+organic_only: true
+
+constants:
+  - topic
+  - total_video_duration
+  - audio
+  - first_frame
+  - caption
+  - hashtags
+  - account
+  - publication_schedule
+
+notes:
+  - >
+    El prompt original de Termux contiene "HormigasAIS".
+  - >
+    La presencia original de la marca no se considera texto de marca
+    añadido experimentalmente.
+  - >
+    El texto experimental superpuesto es "#HormigasAI".
+  - >
+    Las variantes deben cambiar únicamente la duración del overlay.
+  - >
+    Una ronda contiene una publicación por variante; se requieren 3–5 rondas
+    antes de establecer conclusiones.

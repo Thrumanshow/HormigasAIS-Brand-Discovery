@@ -1,0 +1,40 @@
+experiment_id: EXP001
+variant: A
+role: control
+
+content:
+  title: "sin texto añadido"
+  subject: "Terminal de Termux con prompt A16@Soberano"
+  duration_seconds: null
+  duration_status: "pendiente de medición exacta"
+
+branding:
+  brand_added_in_edit: false
+  logo_added: false
+  sticker_added: false
+  watermark_added: false
+  original_brand_visible: true
+  original_brand_source: "terminal prompt"
+
+original_elements:
+  - "A16@Soberano"
+  - "HormigasAIS"
+
+platforms:
+  youtube:
+    status: pending
+    url: null
+    published_at: null
+
+  instagram:
+    status: pending
+    url: null
+    published_at: null
+
+issue:
+  github_issue: 2
+
+status:
+  production: ready
+  publication: pending
+  measurement: pending
