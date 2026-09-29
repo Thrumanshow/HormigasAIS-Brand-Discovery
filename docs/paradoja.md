@@ -1,12 +1,14 @@
-# Paradoja del protocolo (BORRADOR)
+# Paradoja del protocolo
 
-Estado: pendiente de confirmación del autor.
+Estado: frase aportada por el autor; formulación por completar.
 
-Formulación candidata:
-El contenido necesita alcance para demostrar su valor, pero el alcance
-depende de que el contenido ya haya demostrado valor.
+Frase clave (autor): Hormigas-ai
 
-Preguntas que la paradoja obliga a medir:
-- ¿Qué señales iniciales (texto de marca, hashtags, formato) rompen ese
-  ciclo en las primeras horas?
-- ¿Cambian esas señales entre YouTube Shorts e Instagram Reels?
+Lectura candidata, pendiente de confirmar:
+Como hashtag, el guion corta la etiqueta en #Hormigas. Como texto
+visible, el nombre se lee completo. La identidad de marca no se
+comporta igual como etiqueta que como texto en pantalla.
+
+Pregunta medible:
+- ¿Cambia el descubrimiento según la marca aparezca como hashtag
+  (#HormigasAI) o como texto visible (Hormigas-ai)?

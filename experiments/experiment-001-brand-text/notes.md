@@ -25,8 +25,11 @@ Repetir 3-5 rondas rotando el orden antes de concluir.
 
 ## Pendiente
 - Experimento 002: etiquetas #apna... con vs. sin.
-- Tema y duración del video base.
 
 ## Video base
-- Tema: pendiente
-- Duración (s): pendiente
+- Tema: A16@Soberano:~/HormigasAIS-Brand-Discovery (prompt de la terminal)
+- Duración (s): menos de 14 (valor exacto pendiente)
+
+## Nota de diseño
+El prompt de la terminal muestra "HormigasAIS" en pantalla en las tres
+variantes. La variante A significa "sin texto añadido en edición".
