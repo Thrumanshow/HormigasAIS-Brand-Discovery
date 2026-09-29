@@ -2,11 +2,23 @@
 import subprocess
 import sys
 
+def asegurar_etiquetas():
+    """Garantiza la existencia de las etiquetas oficiales en GitHub."""
+    etiquetas = [
+        ("experimento", "Pruebas científicas del enjambre", "F9614B"),
+        ("crecimiento-organico", "Estrategias de alcance masivo", "2EA44F")
+    ]
+    for nombre, desc, color in etiquetas:
+        cmd = ["gh", "label", "create", nombre, "--description", desc, "--color", color, "--force"]
+        subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
 def inyectar_experimento_gh(id_exp, variable, plataforma, hipotesis):
     """
     Evolución HormigasAIS: Crea un Issue estructurado en GitHub usando 'gh CLI'
     para auditar experimentos de posicionamiento orgánico ampliado.
     """
+    asegurar_etiquetas()
+    
     titulo = f"🧪 {id_exp}: Evaluación de {variable} en {plataforma}"
     
     cuerpo = f"""# 🐜 Protocolo de Descubrimiento de Marca - HormigasAIS
