@@ -1,26 +1,17 @@
 #!/usr/bin/env bash
 set -e
 
-REGISTRO_CSV="data/registro.csv"
+EXP="${1:-EXP-001}"
+VAR="${2:-B}"
+PLA="${3:-Instagram}"
+CID="${4:-Dd3dcp9R94d}"
+WIN="${5:-1h}"
+DUR="${6:-13}"
 
-echo "=== 🐜 HormigasAIS: Captura de Métricas (Ventana 1h) ==="
-echo ""
+echo "=== 🐜 Captura de Metricas: $EXP | Var: $VAR | $PLA ($WIN) ==="
+read -p "  └─ Views / Reproducciones: " views
+read -p "  └─ Likes / Me gusta: " likes
 
-echo "📌 INSTAGRAM REEL (ID: Dd3dcp9R94d)"
-read -p "  └─ Reproducciones / Views: " ig_views
-read -p "  └─ Me gusta / Likes: " ig_likes
+scripts/exp.sh medir experiment_id="$EXP" variant="$VAR" platform="$PLA" content_id="$CID" window="$WIN" duration_s="$DUR" views="$views" likes="$likes"
 
-echo ""
-echo "📌 YOUTUBE SHORT (ID: 18PiCYHpgus)"
-read -p "  └─ Vistas / Views: " yt_views
-read -p "  └─ Me gusta / Likes: " yt_likes
-
-echo ""
-echo "⚙️ Registrando en $REGISTRO_CSV..."
-
-scripts/exp.sh medir experiment_id=EXP-001 variant=B platform=Instagram content_id=Dd3dcp9R94d window=1h duration_s=13 views="$ig_views" likes="$ig_likes"
-scripts/exp.sh medir experiment_id=EXP-001 variant=B platform=YouTube content_id=18PiCYHpgus window=1h duration_s=13 views="$yt_views" likes="$yt_likes"
-
-echo ""
-echo "✅ Métricas guardadas."
-tail -n 4 "$REGISTRO_CSV"
+echo "✅ Metrica registrada."
