@@ -1,0 +1,71 @@
+{
+    "contract_version": "1.0-LBH",
+    "agent_id": "hormiga_04",
+    "role": "dwell_interceptor",
+    "target_adversary": "disrupt_tiktok_dwell_tracking",
+    "governance": {
+        "authority": ".human",
+        "founder": "CLHQ",
+        "fidelization_language": "Lenguaje-Binario-HormigasAIS (LBH)"
+    },
+    "execution_rules": {
+        "mode": "offline_edge",
+        "sovereign_filter": true,
+        "feromona_emission": "active"
+    },
+    "timestamp": 1790669990.9428205,
+    "status": "ENTRENADO_Y_ACTIVO",
+    "fidelidad_LBH": "100%",
+    "training_timestamp": 1790670119.2759151,
+    "multilingual_defense": {
+        "status": "MULTILINGUAL_ENABLED",
+        "supported_languages": [
+            "ES",
+            "EN",
+            "GN"
+        ],
+        "token_matrix": {
+            "miedo": [
+                "miedo",
+                "fear",
+                "kyhyje",
+                "anxiety",
+                "threat"
+            ],
+            "deseo": [
+                "deseo",
+                "desire",
+                "potapy",
+                "arousal",
+                "attraction"
+            ],
+            "drama": [
+                "drama",
+                "suspense",
+                "sensational",
+                "controversy"
+            ],
+            "fomo": [
+                "urgencia",
+                "urgency",
+                "loss_aversion",
+                "expiring",
+                "oferta_unica"
+            ],
+            "tracking": [
+                "pixel",
+                "cookie_sync",
+                "dwell_time",
+                "fingerprint",
+                "tracker"
+            ]
+        }
+    },
+    "last_evaluation": 1790670314.6560307,
+    "poligono_validation": {
+        "status": "TESTED_AND_PASSED",
+        "stress_test_timestamp": 1790670578.5166278,
+        "resilience_score": "10/10",
+        "target_neutralized": "Bucle infinito de retenci\u00f3n de video TikTok (dwell_time_ms > 600,000 ms)"
+    }
+}

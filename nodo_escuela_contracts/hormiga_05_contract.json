@@ -1,0 +1,71 @@
+{
+    "contract_version": "1.0-LBH",
+    "agent_id": "hormiga_05",
+    "role": "rank_decoupler",
+    "target_adversary": "decouple_emotional_scoring",
+    "governance": {
+        "authority": ".human",
+        "founder": "CLHQ",
+        "fidelization_language": "Lenguaje-Binario-HormigasAIS (LBH)"
+    },
+    "execution_rules": {
+        "mode": "offline_edge",
+        "sovereign_filter": true,
+        "feromona_emission": "active"
+    },
+    "timestamp": 1790669990.9432871,
+    "status": "ENTRENADO_Y_ACTIVO",
+    "fidelidad_LBH": "100%",
+    "training_timestamp": 1790670120.1805449,
+    "multilingual_defense": {
+        "status": "MULTILINGUAL_ENABLED",
+        "supported_languages": [
+            "ES",
+            "EN",
+            "GN"
+        ],
+        "token_matrix": {
+            "miedo": [
+                "miedo",
+                "fear",
+                "kyhyje",
+                "anxiety",
+                "threat"
+            ],
+            "deseo": [
+                "deseo",
+                "desire",
+                "potapy",
+                "arousal",
+                "attraction"
+            ],
+            "drama": [
+                "drama",
+                "suspense",
+                "sensational",
+                "controversy"
+            ],
+            "fomo": [
+                "urgencia",
+                "urgency",
+                "loss_aversion",
+                "expiring",
+                "oferta_unica"
+            ],
+            "tracking": [
+                "pixel",
+                "cookie_sync",
+                "dwell_time",
+                "fingerprint",
+                "tracker"
+            ]
+        }
+    },
+    "last_evaluation": 1790670314.6566603,
+    "poligono_validation": {
+        "status": "TESTED_AND_PASSED",
+        "stress_test_timestamp": 1790670578.8310382,
+        "resilience_score": "10/10",
+        "target_neutralized": "Inyecci\u00f3n de consultas con alta carga de tokens de p\u00e1nico/deseo ('miedo', 'urgency', 'oferta_expirada')"
+    }
+}
