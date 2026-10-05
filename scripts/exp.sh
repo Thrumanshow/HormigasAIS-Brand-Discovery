@@ -8,6 +8,7 @@ case "$1" in
   capturar) scripts/capturar_metricas.sh "${@:2}" ;;
   validar)  python3 scripts/validar_registro.py "${@:2}" ;;
   analizar) python3 scripts/analizar.py ;;
+estado) python scripts/estado.py ;;
   sync)     git pull --rebase && git status -sb ;;
   subir)    git add -A && git commit -m "$2" && git push ;;
   *) echo "Uso: exp.sh issues | ver N | nota N \"texto\" | nuevo [ID VAR PLAT HIP] | medir ... | capturar ... | validar | analizar | sync | subir \"msg\"" ;;

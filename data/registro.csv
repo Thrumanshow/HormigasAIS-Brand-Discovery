@@ -1,8 +1,10 @@
-experiment_id,variant,platform,content_id,duration_s,publication_date,window,content_topic,hook,brand_text_duration,caption_hashtags,visual_hashtags,watermark,views,likes,comments,shares,saves,profile_visits,new_followers,non_follower_reach,notes
-EXP-000,historico,YouTube,5f8W4A3Dmdk,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,caso previo
-EXP-000,historico,YouTube,BYL_8f7Jn5w,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,caso previo
-EXP-000,historico,Instagram,DAM55LutVIR,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,caso previo
-EXP-000,historico,Instagram,DAKMa97vcIX,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,caso previo
-EXP-001,B,Instagram,Dd3dcp9R94d,13,unknown,1h,unknown,unknown,unknown,unknown,unknown,unknown,67,0,unknown,unknown,unknown,unknown,unknown,unknown,unknown
-EXP-001,A,YouTube,18PiCYHpgus,13,unknown,1h,unknown,unknown,unknown,unknown,unknown,unknown,12,0,unknown,unknown,unknown,unknown,unknown,unknown,unknown
-EXP-002-A,unknown,YouTube,unknown,unknown,unknown,1h,unknown,unknown,unknown,unknown,unknown,unknown,176,0,0,0,0,unknown,unknown,unknown,unknown
+experiment_id,variant,platform,content_id,duration_s,publication_date,window,captured_at,content_topic,hook,brand_text_duration,caption_hashtags,visual_hashtags,watermark,views,likes,comments,shares,saves,profile_visits,new_followers,non_follower_reach,viewers,avg_watch_s,notes
+EXP-000,historico,YouTube,5f8W4A3Dmdk,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,caso previo
+EXP-000,historico,YouTube,BYL_8f7Jn5w,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,caso previo
+EXP-000,historico,Instagram,DAM55LutVIR,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,caso previo
+EXP-000,historico,Instagram,DAKMa97vcIX,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,caso previo
+EXP-001,B,Instagram,Dd3dcp9R94d,13,unknown,1h,unknown,unknown,unknown,unknown,unknown,unknown,unknown,67,0,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+EXP-001,A,YouTube,18PiCYHpgus,13,unknown,1h,unknown,unknown,unknown,unknown,unknown,unknown,unknown,12,0,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+EXP-002-A,unknown,YouTube,unknown,unknown,unknown,1h,unknown,unknown,unknown,unknown,unknown,unknown,unknown,176,0,0,0,0,unknown,unknown,unknown,unknown,unknown,unknown
+EXP-001,B,Instagram,Dd3dcp9R94d,13,unknown,snapshot,2026-10-04T19:56:00-06:00,unknown,unknown,unknown,unknown,unknown,unknown,278,0,1,0,0,unknown,0,unknown,27,9,reposts=0; publicacion cruzada en Facebook activa; no visibles: visitas al perfil y alcance de no seguidores
+EXP-001,A,YouTube,18PiCYHpgus,13,unknown,snapshot,2026-10-04T19:56:00-06:00,unknown,unknown,unknown,unknown,unknown,unknown,688,2,unknown,6,unknown,unknown,unknown,unknown,unknown,unknown,"+8 vistas en 48 h; publicado hace 5 dias; ubicaciones: Mexico 23%, Venezuela 7%, Honduras 4%"

@@ -45,11 +45,7 @@ cat > "$BODY" << BODYEOF
 ## Desviaciones
 - Ninguna registrada
 
-## Mediciones (copiar a data/registro.csv)
-- [ ] 1 h
-- [ ] 24 h
-- [ ] 72 h
-- [ ] 7 d
+## Seguimiento continuo (capturas en cualquier momento; ver con scripts/exp.sh estado)
 
 ## Notas
 BODYEOF

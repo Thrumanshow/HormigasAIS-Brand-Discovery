@@ -28,7 +28,7 @@ Repetir 3-5 rondas rotando el orden antes de concluir.
 
 ## Video base
 - Tema: A16@Soberano:~/HormigasAIS-Brand-Discovery (prompt de la terminal)
-- Duración (s): menos de 14 (valor exacto pendiente)
+- Duración (s): 13
 
 ## Nota de diseño
 El prompt de la terminal muestra "HormigasAIS" en pantalla en las tres
